@@ -1,7 +1,7 @@
 # DOCKER PHP
 ### SafetyPay
 
-Instalar Docker ToolBox
+Descargar e instalar Docker ToolBox
 ```
 $ https://www.docker.com/products/docker-toolbox
 ```
