@@ -1,0 +1,21 @@
+app:
+  build: .
+  container_name: safetypay_app
+  command: php -S 0.0.0.0:8000 -t /app
+  ports:
+    - "8000:8000"
+  # links:
+  #   - db
+  volumes:
+    - .:/app
+
+# db:
+#   image: mysql
+#   container_name: safetypay_db
+#   ports:
+#     - "3306:3306"
+#   environment:
+#     MYSQL_ROOT_PASSWORD: 123456
+#     MYSQL_USER: dev
+#     MYSQL_PASSWORD: 123456
+#     MYSQL_DATABASE: myapp
