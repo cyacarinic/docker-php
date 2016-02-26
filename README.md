@@ -12,7 +12,7 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-Open (xxx: 100, 101, 102, ...)
+Open (reemplazar "XXX" por 100, 101, 102, ... dependiendod de la VM)
 ```
 http://192.168.99.XXX:8000/
 ```
